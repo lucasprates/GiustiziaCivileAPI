@@ -1,0 +1,3 @@
+retrievedData.txt
+This file will contain all retrieved data by this user's requests (via this API) to Italy's GiustiziaCivileAPI
+

@@ -1,0 +1,36 @@
+{
+  "name": "giustizia-civile-api",
+  "version": "1.0.0",
+  "description": "API to access Italy's Guistizia Cilvile Info",
+  "main": "api.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/lucasprates/GiustiziaCivileAPI.git"
+  },
+  "keywords": [
+    "giustiziacivile",
+    "api",
+    "giustizia",
+    "civile",
+    "italia",
+    "italy",
+    "app"
+  ],
+  "author": "Lucas Quintiliano Prates",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/lucasprates/GiustiziaCivileAPI/issues"
+  },
+  "homepage": "https://github.com/lucasprates/GiustiziaCivileAPI#readme",
+  "dependencies": {
+    "express": "^4.16.4",
+    "parse5": "^5.1.0",
+    "request": "^2.88.0",
+    "request-promise": "^4.2.2",
+    "request-promise-native": "^1.0.5",
+    "xml2json": "^0.11.2"
+  }
+}

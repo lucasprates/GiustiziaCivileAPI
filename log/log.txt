@@ -1,0 +1,3 @@
+log.txt
+This file will contain all logs generated from this API by the attemps of this user's requests to Italy's Giustizia Civile App
+
