@@ -12,7 +12,7 @@ async function startAPI(options){
     if(Array.isArray(options)){
         //if it has options, then only start the options chosen
         if(options.includes("server_status") && options["server_status"] == "ON") server.startServerAPI();
-        if(options.includes("unique_user_info") ** options["unique_user_info"] == "ON") {
+        if(options.includes("unique_user_info") && options["unique_user_info"] == "ON") {
             await setupConfig.setUserInfo(options.user_uuid, options.user_token, options.user_metadata.device_name, options.user_metadata.device_width, options.user_metadata.device_height);
         } else {
             //on boot "auto call" User info load from XML in case there is no new user UUID and/or Token
